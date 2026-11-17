@@ -1,0 +1,28 @@
+/target
+/target-*
+target/
+target-gpu/
+target-check/
+
+*.exe
+*.pdb
+*.dll
+
+# model weights (never committed)
+*.gguf
+*.safetensors
+*.bin
+tokenizer.json
+models/
+
+# local logs / downloader state
+*.log
+*.mdm.json
+*.mdm.part
+parts/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
