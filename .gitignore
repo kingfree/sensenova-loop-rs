@@ -26,3 +26,7 @@ parts/
 .idea/
 .DS_Store
 Thumbs.db
+
+# local one-click launchers (contain absolute paths)
+/start-local.ps1
+/start-local.cmd
